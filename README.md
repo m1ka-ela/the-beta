@@ -5,11 +5,11 @@
 2026 Capstone Design project · Team **AIming** · Sungshin Women's University
 
 <p align="center">
-  <a href="https://youtu.be/3Gc6e-Ctn-Q">
-    <img src="https://img.youtube.com/vi/3Gc6e-Ctn-Q/maxresdefault.jpg" alt="The Beta — gameplay demo video" width="720">
-  </a>
+  <img src="docs/prompt-to-action.gif" alt="The player types a prompt in the chat panel, and LeeLooMi sneaks past the patrol robots into the lab" width="800">
   <br>
-  <sub>▶ Click to watch the full gameplay demo on YouTube</sub>
+  <sub>The player types <i>"Run past the robots and go through the door on the left!"</i> — LeeLooMi answers in her own voice and moves through the room.</sub>
+  <br><br>
+  <a href="https://youtu.be/3Gc6e-Ctn-Q"><b>▶ Watch the full gameplay demo on YouTube</b></a>
 </p>
 
 > 📦 **Source code:** [AIming-sswu/ai-prompt-escape-game](https://github.com/AIming-sswu/ai-prompt-escape-game)
@@ -36,6 +36,12 @@ The game is designed to teach **effective prompting** through play.
 - **Multi-spectrum investigation** — IR / UV / thermal vision modes filter what context the LLM can see, so each mode reveals different clues
 - **Affection system** — LeeLooMi's mood toward the player changes based on how well you guide her
 - **Fully local** — runs offline with Ollama, no cloud API
+
+<p align="center">
+  <img src="docs/firewall-stage.gif" alt="Final stage: talking to the server firewall lowers its alert level from hostile (red) to suspicious (yellow)" width="800">
+  <br>
+  <sub>Final stage — talking with the server's firewall lowers its alert level from <b>hostile</b> (red) to <b>suspicious</b> (yellow).</sub>
+</p>
 
 ## Architecture
 
@@ -96,9 +102,9 @@ Putting a live LLM inside an NPC turned out to be the hardest part of the projec
 | Member | Role |
 |---|---|
 | **Sieun Hwang** (me) | Team lead · Unity client · scenario & puzzles · fine-tuning |
-| 권유진 | 2D pixel art for characters & objects · ending scene · fine-tuning data |
-| 정소영 | FastAPI server · RAG pipeline · prompt engineering · fine-tuning data |
-| 윤지원 | FastAPI server · action parser · NavMesh & stage setup · fine-tuning |
+| Yujin Kwon | 2D pixel art for characters & objects · ending scene · fine-tuning data |
+| Soyoung Jung | FastAPI server · RAG pipeline · prompt engineering · fine-tuning data |
+| Jiwon Yun | FastAPI server · action parser · NavMesh & stage setup · fine-tuning |
 
 ## Tech Stack
 
